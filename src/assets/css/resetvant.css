@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.van-empty__image {
+    width: 14.4rem;
+    height: 14.4rem;
+    margin: 9rem 0 2rem;
+}
+.van-empty__bottom {
+    margin-top: 12rem;
+}
+.mall,.sort,.search{
+    margin-bottom: 5rem;
+}
+.van-grid-item__content{
+    padding: 0;
+}

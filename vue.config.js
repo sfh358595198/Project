@@ -1,0 +1,13 @@
+//这里面配置的内容，会覆盖默认的webpack配置
+module.exports={
+    devServer:{
+        open:true,
+        port:8080,
+        proxy:{
+            '/api':{
+                target:'https://open.ucpaas.com/ol/sms',
+                pathRewrite:{'^/api':''}
+            }
+        }
+    }
+}
